@@ -1,0 +1,25 @@
+{
+  "name": "table-nowrap",
+  "version": "1.0.0",
+  "description": "解决element UI table折行问题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineedamiao/table-nowrap.git"
+  },
+  "keywords": [
+    "element",
+    "UI",
+    "table",
+    "nowrap"
+  ],
+  "author": "wangMing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ineedamiao/table-nowrap/issues"
+  },
+  "homepage": "https://github.com/ineedamiao/table-nowrap#readme"
+}
