@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add rollup-plugin-babel@latest --dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/android-sdk/tools:/usr/local/opt/android-sdk/platform-tools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/zszq/WebstormProjects/table-nowrap/package.json: Unexpected token } in JSON at position 562
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "table-nowrap",
+    "version": "1.0.2",
+    "description": "解决element UI table折行问题",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ineedamiao/table-nowrap.git"
+    },
+    "keywords": [
+      "element",
+      "UI",
+      "table",
+      "nowrap"
+    ],
+    "author": "wangMing",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ineedamiao/table-nowrap/issues"
+    },
+    "homepage": "https://github.com/ineedamiao/table-nowrap#readme",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
